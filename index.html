@@ -1,0 +1,150 @@
+<!--Tipo de archivo-->
+<!DOCTYPE html>
+<!--Archivo raíz, contenedor principal-->
+<html lang="es">
+
+<head>
+    <!--Etiqueta Head: Configuraciones-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- hoja de estilos css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Título del sitio web -->
+    <title>Pomerania</title>
+</head>
+<body>
+
+    <!-- header hace una separación de la parte superior de la página -->
+        <!-- Elemento semántico para cabecera de Contenido -->
+    <header>
+        <!-- etiqueta nav: navegador -->
+        <!-- Elemento semántico para los elementos de navegación, listas, titulos -->
+        <nav>
+            <!-- menú -->
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+
+        <!-- Elemento encabezado principal -->
+        <h1>Pomerania</h1>
+        <!-- imagen desde la web -->
+        <!-- <img src="https://noticieros.televisa.com/wp-content/uploads/2022/05/es-cruel-tener-un-pug-advierten-veterinarios-sobre-la-pobre-salud-de-esta-raza.jpg" alt="Imagen pug triste"> -->
+        
+        <!-- imagen desde local -->
+        <img class="imagenPrincipal" src="img/pome1.jpg" alt="Pomerania feliz">
+    </header>
+    <!-- Elemento semántico el contenido principal -->
+    <main>
+        <!-- Main nos muestra el cuerpo de la página -->
+        <h3 class="titulo1">¿Qué tanto te gustan los Pomerania?</h3>
+        <!-- Elemento párrafo -->
+        <p>El pomerania es una raza canina perteneciente a la familia de los spitz, que recibe su nombre de la región de Pomerania Central.</p>
+
+        <!-- Elemento hr separa con una línea -->
+        <hr>
+
+        <!-- form es especial para formularios -->
+
+        <form action="">
+            
+            <h3>Escribe tu nombre</h3>
+
+            <label for="nombre">
+                <input type="text">
+            </label>
+
+            <h3 class="titulo3">¿Qué color de Pomerania prefieres?</h3>
+            <label for="color">
+                <input type="radio">
+                Negro
+            </label>
+            <label for="color">
+                <input type="radio">
+                Blanco
+            </label>
+            <label for="color">
+                <input type="radio">
+                Café
+            </label>
+
+            <!-- br separa elementos -->
+            <br>
+    
+            <h3>Características de los Pomerania</h3>
+            <!-- Elemento para formulario -->
+            <label for="carinosos">
+                <!--Elemento para un campo de entrada  -->
+                <input type="checkbox">
+                Cariñoso
+            </label>
+            <br>
+            <!-- Elemento label, texto descriptivo con un elemento de formulario -->
+            <label for="sentimental">
+                <input type="checkbox">
+                Sentimental
+            </label>
+            <br>
+            <label for="Travieso">
+                <input type="checkbox">
+                Travieso
+            </label>
+            <br>
+            <label for="social">
+                <input type="checkbox">
+                Social
+            </label>
+        </form>
+
+
+        <!--Elemento Lista desordenda -->
+        <h3>¿Qué les gusta hacer?</h3>
+
+        <ul id="lista-desordenada">
+            <li>Comer</li>
+            <li>Dormir</li>
+            <li>Compania</li>
+            <li>Cama comoda</li>
+        </ul>
+
+        <!--Elemento Lista ordenda -->
+        <h3>¿Qué no les gusta?</h3>
+
+        <ol>
+            <li>Estar solos</li>
+            <li>Bañarse</li>
+            <li>Correr mucho</li>
+        </ol>
+        <div class="divParrafo">
+            <p>Los animalitos merecen amor y respeto, adopta responsablemente.</p>
+        </div>
+        <h3>Galeria</h3>
+        <div class="gallery">
+            <!--       Comienzan las imágenes   -->
+                  <div class="image">
+                        <img src="img/pomeblanco.jpeg" alt="Imagen 1">
+                    </div>
+                    <div class="image">
+                        <img src="img/pomenegro.jpeg" alt="Imagen 2">
+                    </div>
+                    <div class="image">
+                        <img src="img/pome1.jpg" alt="Imagen 2">
+                    </div>
+
+        </div>
+    </main>
+ <!-- Elemento semántico para el pie página -->
+    <footer>
+        <h2>Sitio web creado por Laura Veronica en TecnolochicaPro</a> 
+        </h2>
+    </footer>
+
+   
+</body>
+</html>
